@@ -71,7 +71,7 @@ set shiftwidth=4
 set expandtab
 
 set cursorline
-hi CursorLine cterm=none ctermbg=black ctermfg=white
+hi CursorLine cterm=none ctermbg=black
 
 inoremap {<CR> {<CR>}<ESC>kA<CR>
 inoremap <C-u> <ESC>g~iwea
