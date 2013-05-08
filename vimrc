@@ -69,7 +69,10 @@ set smartindent
 set tabstop=4
 set shiftwidth=4
 set expandtab
-set tags+=/usr/include/gtk-3.0/tags
+
+set cursorline
+hi CursorLine cterm=none ctermbg=black ctermfg=white
+
 inoremap {<CR> {<CR>}<ESC>kA<CR>
 inoremap <C-u> <ESC>g~iwea
 
